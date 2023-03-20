@@ -3,9 +3,9 @@ from pygments.lexers.prolog import PrologLexer
 from pygments.token import *
 
 class LPrologLexer(PrologLexer):
-    name = 'LProlog'
-    aliases = ['lprolog', 'lambdaprolog'],
-    filenames = ['*.sig', '*.mod']
+    name = 'Lambda Prolog'
+    aliases = ('lprolog',)
+    filenames = ('*.mod','*.sig')
 
     tokens = {
         'root': [

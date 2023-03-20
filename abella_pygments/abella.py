@@ -14,8 +14,8 @@ class AbellaSpecLexer(LPrologLexer):
 
 class AbellaLexer(LPrologLexer):
     name = 'Abella'
-    aliases = ['abella']
-    filenames = ['*.thm']
+    aliases = ('abella',)
+    filenames = ('*.thm',)
 
     tokens = {
         'root': [
