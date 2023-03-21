@@ -24,6 +24,7 @@ class AbellaLexer(LPrologLexer):
             (r'"(?:\\"|[^\\"])*"', String),
             (r':=', Punctuation),
             (r'/\\|\\/', Operator),
+            (r'\d+', Number.Integer), # no floating point numbers plz
             (r'\b(?:prop|o|olist)\b', Keyword.Type),
             (r'\b(?:true|false)\b', Keyword.Constant),
             (r'\b(?:forall|exists|nabla)\b', Keyword),
