@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "abella_pygments",
-    version = "0.0.1",
+    version = "0.0.2",
     description = "Pygments lexer package for Abella and λProlog",
     author = "Kaustuv Chaudhuri",
     author_email = "kaustuv@chaudhuri.info",
