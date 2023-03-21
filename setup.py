@@ -13,7 +13,7 @@ setup(
     packages = find_packages(),
     entry_points = {
         'pygments.lexers': [
-            'lprolog = abella_pygments:lprolog.LPrologLexer',
+            'lprolog = abella_pygments:LPrologLexer',
             'abella = abella_pygments:AbellaLexer',
         ]
     },
